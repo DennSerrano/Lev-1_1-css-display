@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+
+button{
+background: blue;
+padding: 5vh 10vw;
+display:block;
+margin:5vh auto;
+color: white;
+font-size:20px;
+}
+button:hover{
+    background:purple
+}
+
+button:hover + div{
+    display: block;
+    text-align: center;
+}
+
+div{
+display:none;
+    text-align: center;
+}
